@@ -12,6 +12,6 @@ func Distance(p1, p2 Point) float64 {
 }
 
 func String(p Point) string {
-  return fmt.Sprintf("(%.3f,%.3f)", p.X, p.Y)
+  return fmt.Sprintf("PUNTO (%.3f,%.3f)", p.X, p.Y)
 }
 
