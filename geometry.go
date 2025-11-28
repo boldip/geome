@@ -25,6 +25,10 @@ func LineThru(p1, p2 Point) (r Line, ok bool) {
   return
 }
 
+func LinePassesThru(r Line, p Point) bool {
+  return r.M * p.X + r.Q == p.Y
+}
+
 
 
 func String(p Point) string {
